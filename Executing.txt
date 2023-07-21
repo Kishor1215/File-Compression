@@ -1,0 +1,10 @@
+//compile
+g++ huffman-compression.cpp -o huffman
+
+
+//to compress the file
+huffman.exe -c all.txt
+
+
+//to decompress the file
+huffman.exe -dc all.txt
